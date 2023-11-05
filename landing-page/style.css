@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'CustomFonts';
+    src: url(/assets/fonts/static/Poppins-BoldItalic.ttf)format(ttf);
+}
+@font-face {
+    font-family: 'CustomFonts1';
+    src: url(/assets/fonts/Poppins-Bold.ttf);
+}
+h1{
+    font-family: 'CustomFonts1', sans-serif;
+}
+.landing-page-heading{
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.landing-page-paragraph{
+    font-family: 'CustomFonts', sans-serif;
+    margin: 5px;
+}
+.landing-page-image{
+    margin-bottom: 50px;
+}
+body{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.submit{
+    font-family: 'CustomFonts1', sans-serif;
+    color: white;
+    font-size: 12px;
+    padding: 20px 140px;
+    border: 0;
+    border-radius: 20px;
+    background-color: rgb(162, 45, 162);
+    cursor:pointer;
+}
+.submit:hover{
+    background-color: blueviolet;
+
+}
+
